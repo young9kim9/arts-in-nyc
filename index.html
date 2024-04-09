@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arts in NYC</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    </head>
+
+  <body>
+    <header>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+      </nav>
+    </header>
+    
+    <main>
+      <h1>
+        <div class="hover-title">
+          Arts
+          <div class="hover-image"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnBocGIxMGEyazBkZGxjNmRhc3JrZWgyZXlvbWpqaWt6bXRrZzBxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vrcoalzSZ7ivu/giphy.gif"></div>
+        </div> in <br>
+        New York City
+      </h1>
+      
+      <p>
+        This is a collection of arts in New York city that I have been collecting since August 2023. It is true that the artworks at the museum are famous, but when I walk on the streets of New York, I can see art that is created by accident or by people freely. New York is a place where you can naturally experience art that represents the city itself even if you don't have to look for it. All collected by Young Kim.
+      </p>
+      
+      <div class="arrow">
+        <img src="https://cdn.glitch.global/76749d4f-8282-45c9-b531-5ca9959b75b9/arrow.png?v=1712241913054">
+      </div>
+
+      <div id="myBtnContainer" class="btn-container">
+        <button class="btn active" onclick="filterSelection('all')"> all</button>
+        <button class="btn" onclick="filterSelection('museum')"> museum&gallery</button>
+        <button class="btn" onclick="filterSelection('other')"> other</button>
+        <br>
+        <button class="btn sub-btn" onclick="filterSelection('paint')"> painting</button>
+        <button class="btn sub-btn" onclick="filterSelection('sculpture')"> sculpture</button>
+        <button class="btn sub-btn" onclick="filterSelection('arch')"> architecture</button>
+        <button class="btn sub-btn" onclick="filterSelection('install')"> installation</button>
+        <button class="btn sub-btn" onclick="filterSelection('digital')"> digital</button>
+        <button class="btn sub-btn" onclick="filterSelection('print')"> printed matter</button>
+      </div>
+
+      <ul class="image-gallery">
+        <li class="filterDiv museum digital">
+          <a href="entries/entry-1.html"><img src="img/entry-1-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum install">
+          <a href="entries/entry-2.html"><img src="img/entry-2-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum install">
+          <a href="entries/entry-3.html"><img src="img/entry-3-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum install">
+          <a href="entries/entry-4.html"><img src="img/entry-4-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-5.html"><img src="img/entry-5-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-6.html"><img src="img/entry-6-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-7.html"><img src="img/entry-7-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum install sculpture">
+          <a href="entries/entry-8.html"><img src="img/entry-8-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum install sculpture]">
+          <a href="entries/entry-9.html"><img src="img/entry-9-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum install sculpture">
+          <a href="entries/entry-10.html"><img src="img/entry-10-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-11.html"><img src="img/entry-11-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-12.html"><img src="img/entry-12-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-13.html"><img src="img/entry-13-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum install">
+          <a href="entries/entry-14.html"><img src="img/entry-14-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-15.html"><img src="img/entry-15-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-16.html"><img src="img/entry-16-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-17.html"><img src="img/entry-17-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-18.html"><img src="img/entry-18-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-19.html"><img src="img/entry-19-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint sculpture">
+          <a href="entries/entry-20.html"><img src="img/entry-20-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint install">
+          <a href="entries/entry-21.html"><img src="img/entry-21-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-22.html"><img src="img/entry-22-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-23.html"><img src="img/entry-23-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum print">
+          <a href="entries/entry-24.html"><img src="img/entry-24-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum print">
+          <a href="entries/entry-25.html"><img src="img/entry-25-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-26.html"><img src="img/entry-26-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum paint">
+          <a href="entries/entry-27.html"><img src="img/entry-27-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-28.html"><img src="img/entry-28-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture">
+          <a href="entries/entry-29.html"><img src="img/entry-29-red.jpg"></a>
+        </li>
+        <li class="filterDiv museum sculpture arch">
+          <a href="entries/entry-30.html"><img src="img/entry-30-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-31.html"><img src="img/entry-31-red.jpg"></a>
+        </li>
+        <li class="filterDiv other paint">
+          <a href="entries/entry-32.html"><img src="img/entry-32-red.jpg"></a>
+        </li>
+        <li class="filterDiv other paint">
+          <a href="entries/entry-33.html"><img src="img/entry-33-red.jpg"></a>
+        </li>
+        <li class="filterDiv other paint">
+          <a href="entries/entry-34.html"><img src="img/entry-34-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-35.html"><img src="img/entry-35-red.jpg"></a>
+        </li>
+        <li class="filterDiv other print">
+          <a href="entries/entry-36.html"><img src="img/entry-36-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-37.html"><img src="img/entry-37-red.jpg"></a>
+        </li>
+        <li class="filterDiv other sculpture">
+          <a href="entries/entry-38.html"><img src="img/entry-38-red.jpg"></a>
+        </li>
+        <li class="filterDiv other sculpture install print">
+          <a href="entries/entry-39.html"><img src="img/entry-39-red.jpg"></a>
+        </li>
+        <li class="filterDiv other paint">
+          <a href="entries/entry-40.html"><img src="img/entry-40-red.jpg"></a>
+        </li>
+        <li class="filterDiv other paint">
+          <a href="entries/entry-41.html"><img src="img/entry-41-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-42.html"><img src="img/entry-42-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-43.html"><img src="img/entry-43-red.jpg"></a>
+        </li>
+        <li class="filterDiv other sculpture">
+          <a href="entries/entry-44.html"><img src="img/entry-44-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-45.html"><img src="img/entry-45-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-46.html"><img src="img/entry-46-red.jpg"></a>
+        </li>
+        <li class="filterDiv other paint">
+          <a href="entries/entry-47.html"><img src="img/entry-47-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-48.html"><img src="img/entry-48-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-49.html"><img src="img/entry-49-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-50.html"><img src="img/entry-50-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-51.html"><img src="img/entry-51-red.jpg"></a>
+        </li>
+        <li class="filterDiv other print">
+          <a href="entries/entry-52.html"><img src="img/entry-52-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-53.html"><img src="img/entry-53-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-54.html"><img src="img/entry-54-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-55.html"><img src="img/entry-55-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-56.html"><img src="img/entry-56-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-57.html"><img src="img/entry-57-red.jpg"></a>
+        </li>
+        <li class="filterDiv other install">
+          <a href="entries/entry-58.html"><img src="img/entry-58-red.jpg"></a>
+        </li>
+        <li class="filterDiv other print">
+          <a href="entries/entry-59.html"><img src="img/entry-59-red.jpg"></a>
+        </li>
+        <li class="filterDiv other arch">
+          <a href="entries/entry-60.html"><img src="img/entry-60-red.jpg"></a>
+        </li>
+      </ul>
+
+      <p style="color: #F4EEDF;">to be added...</p>
+      
+    </main>
+    
+    <footer>
+      <a href="#top">go to top</a>
+
+      ⓒ 2024 Young Kim 
+    </footer>
+  
+  </body>
+</html>
